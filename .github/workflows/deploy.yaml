@@ -1,0 +1,29 @@
+name: CI/CD Auto Deploy
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'myapp_test/greet/**'
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        working-directory: myapp_test/greet
+        run: docker build -t greet:latest .
+
+      - name: Stop old container
+        working-directory: myapp_test/greet
+        run: |
+          docker stop greet || true
+          docker rm greet || true
+
+      - name: Run new container
+        working-directory: myapp_test/greet
+        run: docker run -d --name greet -p 8888:8888 --restart always greet:latest
