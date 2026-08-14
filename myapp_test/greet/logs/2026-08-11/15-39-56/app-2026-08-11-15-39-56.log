@@ -1,0 +1,17 @@
+{"@timestamp":"2026-08-11T15:39:56.849+08:00","caller":"logic/greetlogic.go:31","content":"收到 Greet 请求, Name: me","level":"info","span":"70bed04bbc34226f","trace":"8bbb58220348b1f236ed6e86299dc211"}
+{"@timestamp":"2026-08-11T15:39:57.203+08:00","caller":"logic/greetlogic.go:44","content":"Greet 响应: Hello to me!","level":"info","span":"70bed04bbc34226f","trace":"8bbb58220348b1f236ed6e86299dc211"}
+{"@timestamp":"2026-08-11T15:39:57.204+08:00","caller":"handler/loghandler.go:167","content":"[HTTP] 200 - GET /from/me - 172.17.0.1:58724 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 QQBrowser/21.0.8365.400","duration":"355.3ms","level":"info","span":"70bed04bbc34226f","trace":"8bbb58220348b1f236ed6e86299dc211"}
+{"@timestamp":"2026-08-11T15:40:36.376+08:00","caller":"stat/usage.go:82","content":"CPU: 0m, MEMORY: Alloc=1.7Mi, TotalAlloc=3.7Mi, Sys=17.0Mi, NumGC=1","level":"stat"}
+{"@timestamp":"2026-08-11T15:40:36.379+08:00","caller":"load/sheddingstat.go:61","content":"(api) shedding_stat [1m], cpu: 0, total: 1, pass: 1, drop: 0","level":"stat"}
+{"@timestamp":"2026-08-11T15:40:57.200+08:00","caller":"stat/metrics.go:210","content":"(greet-api) - qps: 0.0/s, drops: 0, avg time: 355.0ms, med: 355.1ms, 90th: 355.1ms, 99th: 355.1ms, 99.9th: 355.1ms","level":"stat"}
+{"@timestamp":"2026-08-11T15:41:36.372+08:00","caller":"stat/usage.go:82","content":"CPU: 0m, MEMORY: Alloc=1.9Mi, TotalAlloc=6.6Mi, Sys=17.6Mi, NumGC=2","level":"stat"}
+{"@timestamp":"2026-08-11T15:41:36.374+08:00","caller":"load/sheddingstat.go:61","content":"(api) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2026-08-11T15:41:57.197+08:00","caller":"stat/metrics.go:210","content":"(greet-api) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2026-08-11T15:42:36.367+08:00","caller":"stat/usage.go:82","content":"CPU: 0m, MEMORY: Alloc=2.0Mi, TotalAlloc=9.6Mi, Sys=18.1Mi, NumGC=3","level":"stat"}
+{"@timestamp":"2026-08-11T15:42:36.370+08:00","caller":"load/sheddingstat.go:61","content":"(api) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2026-08-11T15:42:57.192+08:00","caller":"stat/metrics.go:210","content":"(greet-api) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2026-08-11T15:43:36.362+08:00","caller":"stat/usage.go:82","content":"CPU: 0m, MEMORY: Alloc=2.0Mi, TotalAlloc=12.4Mi, Sys=18.1Mi, NumGC=4","level":"stat"}
+{"@timestamp":"2026-08-11T15:43:36.365+08:00","caller":"load/sheddingstat.go:61","content":"(api) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2026-08-11T15:43:57.187+08:00","caller":"stat/metrics.go:210","content":"(greet-api) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}
+{"@timestamp":"2026-08-11T15:44:28.344+08:00","caller":"proc/shutdown.go:84","content":"Got signal 15, shutting down...","level":"info"}
+{"@timestamp":"2026-08-11T15:44:29.350+08:00","caller":"stat/metrics.go:210","content":"(greet-api) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms","level":"stat"}

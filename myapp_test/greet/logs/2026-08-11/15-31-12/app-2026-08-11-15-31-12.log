@@ -1,0 +1,10 @@
+{"@timestamp":"2026-08-11T15:31:12.400+08:00","caller":"stat/usage.go:82","content":"CPU: 0m, MEMORY: Alloc=1.8Mi, TotalAlloc=3.7Mi, Sys=13.0Mi, NumGC=1","level":"stat"}
+{"@timestamp":"2026-08-11T15:31:12.432+08:00","caller":"load/sheddingstat.go:61","content":"(api) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2026-08-11T15:32:12.396+08:00","caller":"stat/usage.go:82","content":"CPU: 0m, MEMORY: Alloc=1.9Mi, TotalAlloc=6.6Mi, Sys=13.8Mi, NumGC=2","level":"stat"}
+{"@timestamp":"2026-08-11T15:32:12.426+08:00","caller":"load/sheddingstat.go:61","content":"(api) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0","level":"stat"}
+{"@timestamp":"2026-08-11T15:32:16.045+08:00","caller":"logic/greetlogic.go:31","content":"收到 Greet 请求, Name: me","level":"info","span":"b1140885f4af8b61","trace":"f564847e0137cc2eb1c0043ae39ca7d8"}
+{"@timestamp":"2026-08-11T15:32:16.057+08:00","caller":"logic/greetlogic.go:44","content":"Greet 响应: Hello to me!","level":"info","span":"b1140885f4af8b61","trace":"f564847e0137cc2eb1c0043ae39ca7d8"}
+{"@timestamp":"2026-08-11T15:32:16.059+08:00","caller":"handler/loghandler.go:167","content":"[HTTP] 200 - GET /from/me - 172.17.0.1:41482 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 QQBrowser/21.0.8365.400","duration":"18.0ms","level":"info","span":"b1140885f4af8b61","trace":"f564847e0137cc2eb1c0043ae39ca7d8"}
+{"@timestamp":"2026-08-11T15:33:12.392+08:00","caller":"stat/usage.go:82","content":"CPU: 0m, MEMORY: Alloc=2.1Mi, TotalAlloc=9.5Mi, Sys=13.8Mi, NumGC=3","level":"stat"}
+{"@timestamp":"2026-08-11T15:33:12.422+08:00","caller":"load/sheddingstat.go:61","content":"(api) shedding_stat [1m], cpu: 0, total: 1, pass: 1, drop: 0","level":"stat"}
+{"@timestamp":"2026-08-11T15:33:16.056+08:00","caller":"stat/metrics.go:210","content":"(greet-api) - qps: 0.0/s, drops: 0, avg time: 17.0ms, med: 17.3ms, 90th: 17.3ms, 99th: 17.3ms, 99.9th: 17.3ms","level":"stat"}
