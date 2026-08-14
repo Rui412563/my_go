@@ -33,9 +33,9 @@ func (l *GreetLogic) Greet(req *types.Request) (resp *types.Response, err error)
 	resp = &types.Response{}
 	switch req.Name {
 	case "you":
-		resp.Message = "Hello to you ,hello word!"
+		resp.Message = "Hello to you ,hello word，你好!"
 	case "me":
-		resp.Message = "Hello to me,hello word!"
+		resp.Message = "Hello to me,hello word，你好!"
 	default:
 		// 未匹配到任何分支时记录警告日志
 		l.Infof("未匹配到 Name: %s, 返回空响应", req.Name)
